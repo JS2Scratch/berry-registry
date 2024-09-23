@@ -17,4 +17,19 @@ This repository is the registry for all the packages you install with `berry`. Y
 <br>
 (<i>if you're updating a package</i>) **Changelog** Paragraph
 
+Your package should be in the following format:
+
+```
+> root
+    > package-name
+        > 0.0.1
+            > src
+            > utils
+            > Berry.toml
+
+        > latest.txt
+```
+
+Your package should consist of versions, along with a `latest.txt`, which is a plain string containing the latest version that the user can install (in this case, it would be "0.0.1"). There should also be a folder with that name; containing the source code.
+
 Keep in mind that you're not allowed to update other peoples packages without permission; you must ask them first. 
