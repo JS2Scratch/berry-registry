@@ -30,6 +30,7 @@ Your package should be in the following format:
         > latest.txt
 ```
 
-Your package should consist of versions, along with a `latest.txt`, which is a plain string containing the latest version that the user can install (in this case, it would be "0.0.1"). There should also be a folder with that name; containing the source code.
+Your package should consist of versions, along with a `latest.txt`, which is a plain string containing the latest version that the user can install (in this case, it would be "0.0.1"). There should also be a folder with that name; containing the source code. You can see "example-package" for an example.
 
-Keep in mind that you're not allowed to update other peoples packages without permission; you must ask them first. 
+> [!TIP]
+> Keep in mind that you're not allowed to update other peoples packages without permission; you must ask them first.
